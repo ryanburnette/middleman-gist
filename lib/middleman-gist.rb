@@ -6,13 +6,9 @@ class MiddlemanGist < ::Middleman::Extension
   end
 
   helpers do
-    def gist(id)
-      make_gist_embed(id)
+    def gist(user, guid)
+      "<script src=\"https://gist.github.com/#{user}/#{guid}.js\"></script>"
     end
-  end
-
-  def make_gist_embed(id)
-    "<script src=\"https://gist.github.com/ryanburnette/#{id}.js\"></script>"
   end
 end
 
