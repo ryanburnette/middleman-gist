@@ -16,6 +16,4 @@ class MiddlemanGist < ::Middleman::Extension
   end
 end
 
-::Middleman::Extensions.register(:gist) do
-  require "middleman-gist"
-end
+MiddlemanGist.register(:gist)

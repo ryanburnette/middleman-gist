@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "middleman-gist"
-  s.version     = "0.0.12"
+  s.version     = "0.0.13"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Ryan Burnette"]
   s.email       = ["ryan.burnette@gmail.com"]
