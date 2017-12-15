@@ -26,7 +26,9 @@ Use in a post by passing a username and guid to the gist helper.
 
 ## Compatibility
 
-Works in Middleman 3.3+ and 4.0+.
+For Middleman 3 use 0.0.x.
+
+For Middleman 4 use 0.1.x+.
 
 ## License
 
