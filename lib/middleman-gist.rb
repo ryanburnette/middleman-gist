@@ -12,4 +12,4 @@ class MiddlemanGist < ::Middleman::Extension
   end
 end
 
-MiddlemanGist.register(:gist)
+::Middleman::Extensions.register(:gist, MiddlemanGist)
