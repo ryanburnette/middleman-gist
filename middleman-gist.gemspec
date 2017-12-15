@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.description = "A Github Gist helper for the Middleman static site generator."
   s.license     = "Apache2"
   s.files       = `git ls-files -z`.split("\0")
-  s.add_runtime_dependency("middleman-core", ["~> 3", "~> 4"])
+  s.add_runtime_dependency("middleman-core", [">= 3"])
 end
