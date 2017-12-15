@@ -1,34 +1,28 @@
 # middleman-gist
 
-A helper for embedding Github Gists into a Middleman site.
+A helper for embedding Github Gists into a Middleman site. Saves 4.2 seconds.
 
 ## Installation
 
-Include in your Gemfile.
-
 ```ruby
 # Gemfile
-gem "middleman-gist"
-```
 
-Activate.
+# Middleman 3
+gem "middleman-gist", "0.0.14"
+
+# Middleman 4
+gem "middleman-gist", "0.1.1"
+```
 
 ```ruby
 # config.rb
 activate :gist
 ```
 
-Use in a post by passing a username and guid to the gist helper.
-
 ```erb
+# post.html.erb
 <%= gist "ryanburnette", "a22f81bd38710e82452a" %>
 ```
-
-## Compatibility
-
-For Middleman 3 use 0.0.x.
-
-For Middleman 4 use 0.1.x+.
 
 ## License
 
