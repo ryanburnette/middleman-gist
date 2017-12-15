@@ -24,6 +24,10 @@ Use in a post by passing a username and guid to the gist helper.
 <%= gist "ryanburnette", "a22f81bd38710e82452a" %>
 ```
 
+## Compatibility
+
+Works in Middleman 3.3+ and 4.0+.
+
 ## License
 
 Apache2
