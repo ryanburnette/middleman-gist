@@ -2,7 +2,7 @@
 
 A helper for embedding Github Gists into a Middleman site. Saves 4.2 seconds.
 
-## Installation
+## Usage
 
 ```ruby
 # Gemfile
@@ -23,7 +23,3 @@ activate :gist
 # post.html.erb
 <%= gist "ryanburnette", "a22f81bd38710e82452a" %>
 ```
-
-## License
-
-Apache2
